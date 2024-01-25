@@ -1,0 +1,154 @@
+@import url(https://fonts.google.com/?query=Figtree);
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "figtree";
+    margin: 0;
+    height: 100vh;
+}
+
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(47, 88%, 63%);
+    
+ }
+
+.main{
+    width: 330px;
+    height: 480px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 9px 0px 3px hsl(0, 0%, 7%)
+}
+.card-container{
+    margin: auto;
+    width: 280px;
+}
+.ilustration{
+    margin-top: 25px;
+    width: 100%;
+    height: 250px;
+    
+}
+.img-illustration{
+    width: 280px;
+    max-height: 203px;
+    border-radius: 10px;
+}
+button{
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 1px;
+    width: 75px;
+    height: 30px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 16px;    
+}
+
+.structure{
+    font-size: 17px;
+    color: hsl(0, 0%, 50%);;
+}
+.structure h2{
+    margin-top: 25px;
+    font-size: 18px;
+    color: hsl(0, 0%, 7%);
+    user-select: none;
+}
+
+.structure h2:active{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+.structure h2:hover{
+    cursor: pointer;
+}
+.descrictions{
+    margin-top: 17px;
+    color: hsl(0, 0%, 50%);
+}
+.avatar{
+     display: flex;
+}
+.content-avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar p{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.img-avatar{
+    width: 35px;
+    height: 35px;
+}
+
+@media(min-width:1440px){
+    body{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+    }
+    #card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        height: 600px;
+        margin: 0 auto;
+        background-color: hsl(47, 88%, 63%);
+        box-shadow: 1px 9px 17px -3px rgba(0,0,0,0.59);
+}
+    .main{
+        width: 300px;
+        height: 420px;
+    }
+    .card-container{
+        margin: auto;
+        width: 250px;
+    }
+    
+    .ilustration{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        
+    }
+    p{
+        margin-top: 12px;
+        font-size: 12px;    
+    }
+    button{
+        width: 70px;
+        height: 25px;
+    }
+    .structure h2{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .img-illustration{
+        width: 250px;
+        max-height: 200px;
+        border-radius: 10px;
+    }
+    .descrictions{
+        margin-top: 16px;
+        font-size: 12px;
+    }
+}
